@@ -764,9 +764,10 @@ section {
 }
 
 .services .service-item .readmore {
-  margin-top: 15px;
+  margin-bottom: 15px;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 600;
 }
 
 .services .service-item:hover .icon:before {
@@ -2680,4 +2681,15 @@ section {
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
+}
+
+.center {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-logo {
+  margin: auto;
+  padding-bottom: 20px;
 }
