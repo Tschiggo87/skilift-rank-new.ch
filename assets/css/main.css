@@ -2687,7 +2687,6 @@ section {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
-  border: #000  1px solid;
 }
 
 .hero-logo {
@@ -2695,6 +2694,5 @@ section {
   z-index: 1;
   padding-bottom: 20px;
   position: relative;
-  border: #000 1px solid;
 }
 
