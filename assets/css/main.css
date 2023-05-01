@@ -2709,5 +2709,22 @@ section {
 .section-header-color{
   background: rgb(0, 131, 195);
   background: linear-gradient(0deg, rgba(0, 131, 195, 1) 0%, rgba(172, 227, 239, 1) 100%);
+}
 
+.geschlossen{
+  background-color: #e65d50eb;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.geöffnet{
+  background-color: #18d049;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
 }
