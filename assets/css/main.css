@@ -2687,10 +2687,14 @@ section {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+  border: #000  1px solid;
 }
 
 .hero-logo {
-  margin: auto;
+  margin: -100px;
+  z-index: 1;
   padding-bottom: 20px;
+  position: relative;
+  border: #000 1px solid;
 }
 
