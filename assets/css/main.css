@@ -2696,6 +2696,7 @@ section {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+  background-color: #B0E1EC;
 }
 
 .hero-logo {
@@ -2705,4 +2706,8 @@ section {
   position: relative;
 }
 
+.section-header-color{
+  background: rgb(0, 131, 195);
+  background: linear-gradient(0deg, rgba(0, 131, 195, 1) 0%, rgba(172, 227, 239, 1) 100%);
 
+}
