@@ -714,6 +714,14 @@ section {
   padding: 40px;
   background: #fff;
   height: 100%;
+  border-radius: 10px;
+  box-shadow: #cccfd0 0px 0px 10px 0px;
+  transition: 0.4s;
+}
+
+.services .service-item:hover {
+  box-shadow: #bfc3ca 0px 0px 30px 0px;
+  transform: translateY(-10px);
 }
 
 .services .service-item .icon {
@@ -721,6 +729,7 @@ section {
   height: 48px;
   position: relative;
   margin-bottom: 50px;
+  z-index: 2;
 }
 
 .services .service-item .icon i {
@@ -2695,4 +2704,5 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
+
 
